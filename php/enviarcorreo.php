@@ -1,7 +1,8 @@
 <?php
 
-    ini_set( 'display_errors', 1 );
+    /*ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
+    */
     $from = "pguerrasotelo@gmail.com";
     $to = "pguerrasotelo@gmail.com";
     $subject = "Digital Factory - Prueba Envio de Correos";
