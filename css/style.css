@@ -1,0 +1,267 @@
+  
+/* @import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+-- font-family: 'Pushster', cursive;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Yanone+Kaffeesatz:wght@300&display=swap');
+/* font-family: 'Pushster', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+ */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.text-white{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+ }
+
+.jumbotron{
+    background-image: url(../img/cabecera.png);
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    border-radius:0;
+}
+
+.jumbotron p{
+    color:rgb(200, 255, 0);
+    text-shadow: 0 0 7px #222;
+    margin:0;
+    border-radius:0;
+}
+
+.nosotros{
+    min-height: 400px;
+}
+
+h2{
+    text-align: center;
+    color: tomato;
+    text-transform: capitalize;
+}
+
+.n-right{
+    height: 580px;
+    background-image: url(../img/nosotros.jpg);
+    background-size: cover;
+}
+
+.serv{
+    height: 300px;
+    background-color: rgb(0, 60, 255);
+    border: 2px solid #222;
+}
+
+.serv1{
+    height: 300px;
+    background-image: url(../img/desasistem.jpg);
+    background-size: cover;
+    border: 2px solid #222;
+}
+
+.serv2{
+    height: 300px;
+    background-image: url(../img/datascience.jpg);
+    background-size: cover;
+    border: 2px solid #222;
+}
+
+.serv3{
+    height: 300px;
+    background-image: url(../img/fintech3.jpg);
+    background-size: cover;
+    border: 2px solid #222;
+}
+
+.serv4{
+    height: 300px;
+    background-image: url(../img/edutech.jpg);
+    background-size: cover;
+    border: 2px solid #222;
+}
+
+.serv5{
+    height: 300px;
+    background-image: url(../img/ai.jpg);
+    background-size: cover;
+    border: 2px solid #222;
+}
+
+.serv6{
+    height: 300px;
+    background-image: url(../img/machinelearning.jpeg);
+    background-size: cover;
+    border: 2px solid #222;
+}
+
+.serv7{
+    height: 300px;
+    background-image: url(../img/cloudcomputing.jpg);
+    background-size: cover;
+    border: 2px solid #222;
+}
+
+.serv8{
+    height: 300px;
+    background-image: url(../img/consultoria-informatica.png);
+    background-size: cover;
+    border: 2px solid #222;
+}
+
+.serv h3{
+    font-family: 'Pushster', cursive;
+    text-transform: uppercase;
+}
+
+.sol{
+    height: 300px;
+    background-color: rgb(0, 60, 255);
+    border: 2px solid #222;
+}
+
+.sec{
+    width: 100%;
+    align-content: center;
+}
+
+.carousel-inner{
+    background-size: cover;
+    background-position: center;
+}
+
+/*Estilos Formulario Contacto*/
+/*Estilos de la pagina Contacto*/
+#BodyContacto{
+    height: 100%; 
+    font-family:Arial, Helvetica, sans-serif; /* : 'Noto Sans', sans-serif;*/
+    background-color: rgb(33, 116, 172);
+  }
+  
+  
+  .contact_form{  
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgb(33, 116, 172); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:rgb(33, 116, 172); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgb(33, 116, 172); 
+    border-color: rgb(33, 116, 172)493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: rgb(33, 116, 172);
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+
+  .carousel-item img{
+   width:100%;
+
+  }
